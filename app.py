@@ -20,7 +20,7 @@ def services():
 def projects():
     return render_template("projects.html")
 
-@app.route('/')
+@app.route('/contact')
 def contact():
     return render_template("contact.html")
 
