@@ -32,7 +32,9 @@ def project_details():
 def services_details():
     return render_template("services.html")
 
-
+@app.route('/Personal')
+def Personal():
+    return render_template("Personal.html")
 
 
 
